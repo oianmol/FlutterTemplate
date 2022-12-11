@@ -12,13 +12,13 @@ import 'package:praxis_flutter/bloc/app_bloc_observer.dart';
 import 'package:praxis_flutter/firebase_options.dart';
 import 'package:praxis_flutter/infrastructure/notifications/firebase_messaging.dart';
 import 'package:praxis_flutter/injection.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 
 Future<void> bootstrap(FutureOr<Widget> Function() builder, String env) async {
+  usePathUrlStrategy();
   flutterLogError();
 
   WidgetsFlutterBinding.ensureInitialized();
-
-  GoRouter.setUrlPathStrategy(UrlPathStrategy.path);
 
   HttpOverrides.global = MyHttpOverrides();
 

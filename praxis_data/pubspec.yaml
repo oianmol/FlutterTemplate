@@ -13,19 +13,19 @@ dependencies:
   clean_architecture:
     path: ../clean_architecture
   get_it: ^7.2.0
-  injectable: ^1.5.3
+  injectable: ^2.1.0
   logger: ^1.1.0
   dio: ^4.0.6
   shared_preferences: ^2.0.15
   equatable: ^2.0.5
-  firebase_core: ^1.21.1
-  firebase_auth: ^3.7.0
-  firebase_analytics: ^9.3.3
-  firebase_in_app_messaging: ^0.6.0+23
-  google_sign_in: ^5.4.1
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.0
+  firebase_analytics: ^10.0.7
+  firebase_in_app_messaging: ^0.7.0+8
+  google_sign_in: ^5.4.2
   praxis_flutter_domain:
     path: ../praxis_flutter_domain
-  sqflite: ^2.0.3+1
+  sqflite: ^2.2.2
 
 
 dev_dependencies:
